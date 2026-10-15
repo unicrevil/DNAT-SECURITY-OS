@@ -1,42 +1,51 @@
-![DNAT SECURITY OS](banner.png)
-# DNAT SECURITY OS v1.0
-### SECURE // ENCRYPTED // MONITORING
+# DNAT SECURITY OS - Live ISO 4K
 
-> De um wallpaper a uma distro bootável. Buildada do zero no celular.
+![DNAT_SECURITY_OS](banner.png)
 
-## O que é?
+### Sobre o projeto
 
-A DNAT SECURITY OS é uma distribuição Linux Live ARM64 focada em segurança, criada do zero como projeto de estudo e portfólio. Buildada e testada 100% via Termux + Termux:X11.
+A DNAT SECURITY OS é uma distro Linux focada em segurança, testes de invasão e desenvolvimento, criada no Brasil pela DNAT Segurança. Baseada em Debian e inspirada em Kali/Parrot/BackBox, ela traz ferramentas essenciais para pentest e programação, em um ambiente leve e totalmente personalizável.
 
-## Prova de Build
+### Prova de Build (2026-10-15)
 
-- ISO: DNAT-SECURITY-OS-v1.0-arm64.iso
-- Tamanho: 463MB (236832 sectors)
-- Filesystem: binary/live/filesystem.squashfs
-- Ferramenta: xorriso 1.5.6
-- Status: completed successfully
+- ✅ Removidos duplicados: 722 arquivos apagados
+- ✅ Tamanho: 18681 arquivos, 463MB
+- ✅ Local: $HOME/DNAT_SECURITY_OS/
+- ✅ Status: Ambiente montado no Termux/PRoot (X11)
 
-Number of duplicate files removed: 722
-Number of inodes: 24924
-Number of files: 18681
-Number of directories: 2737
-Number of symlinks: 3506
+### Recursos
 
-## Features v1.0
+- ✅ Interface personalizada com wallpaper e logo exclusivos
+- ✅ Menu customizado com categorias (Pentest, DEV)
+- ✅ Ferramentas: Nmap, Hydra, John, Git, VS Code, Firefox, etc.
+- ✅ Suporte a múltiplos DEs: Xfce e KDE (via scripts)
+- ✅ Branding total: "DNAT" no sistema
+- ✅ Base Debian estável
 
-- Live ISO bootável ARM64
-- Base Debian 13 Trixie
-- XFCE 4.x totalmente customizado
-- Branding DNAT completo
-- Build reproducível com live-build
+### Como usar
 
-## Download
+1. Rode o instalador: `sudo bash build_dnat_iso.sh`
+2. Escolha o DE (Xfce ou KDE)
+3. ISO será criada em `/tmp/dnat-live/`
 
-GitHub não permite arquivos >100MB. ISO mantida como artefato histórico.
-Download v1.0 (463MB): Em breve - Drive/MEGA
+### Requisitos
 
-## Autor
+- Debian/Ubuntu base
+- 20GB espaço livre
+- Conexão com internet
+- Usuário com sudo
 
-unicrevil / DNAT Security - Caxias do Sul RS, 2026
+### Licença
 
-"Nós não somos os melhores, Mas estamos entre eles." -the best squad
+Licenciado sob MIT.
+
+## Autor & Equipe DNAT
+
+- **André unic (unicrevil)** - Founder / Build Engineer / DNAT Segurança
+- **Thfwck** - Core Team
+- **Pis3i** - Core Team
+- **note** - Core Team
+
+> "Nós não somos os melhores, mas estamos entre eles." - Equipe DNAT
+
+DNAT SECURITY OS v1.0 - Distro Linux ARM64 focada em segurança, buildada via Termux + PRoot X11.
