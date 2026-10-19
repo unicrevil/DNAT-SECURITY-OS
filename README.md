@@ -1,44 +1,64 @@
-# 🛡️ SO DE SEGURANÇA DNAT v1.0 - ARM64
-
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/unicrevil/DNAT-SECURITY-OS?style=for-the-badge&label=DNAT%20v1.0%20ARM64&color=00FF00">
-  <img src="https://img.shields.io/badge/DEBIAN%2013-XFCE%204K-FF0000?style=for-the-badge">
-  <img src="https://img.shields.io/badge/463MB-ARM64-000000?style=for-the-badge">
+  <img src="banner.png" width="100%" alt="DNAT SECURITY OS">
 </p>
 
-<h2 align="center">SEGURO // CRIPTOGRAFADO // MONITORAMENTO</h2>
+# 🛡️ Sistema Operacional de Segurança DNAT v1.0 - ARM64
 
 <p align="center">
   <a href="https://github.com/unicrevil/DNAT-SECURITY-OS/releases/tag/v1.0">
-    <img src="https://img.shields.io/badge/BAIXAR_ISO_ARM64-463MB-00FF00?style=for-the-badge&logo=debian&logoColor=white">
+    <img src="https://img.shields.io/badge/⬇️_BAIXAR_ISO-463MB_ARM64-00FF00?style=for-the-badge&logo=debian&logoColor=white">
   </a>
+  <img src="https://img.shields.io/badge/DEBIAN%2013%20TRIXIE-XFCE%204K-FF0000?style=for-the-badge">
+  <img src="https://img.shields.io/badge/BUILD-100%25_NO_CELULAR-000000?style=for-the-badge">
 </p>
 
-> Nos nao somos os melhores, mas estamos entre eles. - Equipe DNAT
+### SEGURO // CRIPTOGRAFADO // MONITORAMENTO
+> De um papel de parede é uma distro inicializável. Buildada do zero no celular.
 
 ---
 
-### Detalhes do Build
-- Base: Debian 13
-- DE: XFCE personalizado 4K
-- Tamanho: 463MB - 18681 arquivos
-- Otimizacao: 722 duplicados removidos
-- Ambiente: Termux + PRoot X11
-- Arquitetura: ARM64
+### O que é?
 
-### Ferramentas
-Nmap, Hydra, John, Git, VS Code, Firefox, SABO-X-PURPLE-TEAM
+A **DNAT SECURITY OS** é uma distribuição Linux Live ARM64 focada em segurança, criada do zero como projeto de estudo e portfólio. Construído e testado 100% via **Termux + Termux:X11 + PRoot**.
 
-### Equipe DNAT
-- Andre unic (unicrevil) - Fundador
-- Thfwck - Principal
-- Pis3i - Principal
-- Nota - Principal
+Nós não somos os melhores, mas estamos entre eles.
 
-### Instalacao
-1. Baixe em Releases
-2. Grave com Etcher ou dd
-3. Boot ARM64
+### 🔥 Prova de Build
+- **ISO:** DNAT-SECURITY-OS-v1.0-arm64.iso
+- **Tamanho:** 463 MB (236.832 setores)
+- **Sistema de arquivos:** binary/live/filesystem.squashfs
+- **Ferramenta:** xorriso 1.5.6
+- **Status:** concluído com sucesso
+- **Base:** Debian 13 Trixie + XFCE 4.x totalmente customizado
+
+**Números do build:**
+- Número de arquivos duplicados removidos: 722
+- Número de inodes: 24924
+- Número de arquivos: 18681
+- Número de diretórios: 2737
+- Número de links simbólicos: 3506
+
+### ✨ Funcionalidades v1.0
+- ISO inicializável ao vivo ARM64
+- Base Debian 13 Trixie
+- XFCE 4.x totalmente customizado
+- Branding DNAT completo
+- Ferramentas: Nmap, Hydra, John, Git, VS Code, Firefox, SABO-X-PURPLE-TEAM
+- Build reproduzível com live-build
+
+### 👥 Equipe DNAT
+- **André unic (unicrevil)** - Fundador
+- **Thfwck** - Principal
+- **Pis3i** - Principal
+- **Nota** - Principal
+
+### 📥 Download
+**[Download v1.0 (463 MB) - GitHub Releases](https://github.com/unicrevil/DNAT-SECURITY-OS/releases/tag/v1.0)**
+> GitHub não permite arquivos >100MB via git, por isso a ISO fica em Releases como patrimônio histórico.
+
+### Autor
+unicrevil / DNAT Segurança – Caxias do Sul RS, 2026
+> "Nós não somos os melhores, mas estamos entre eles." - o melhor time
 
 ---
-<p align="center">🔥 Build feito 100% NO CELULAR - Termux + PRoot + X11 - 463MB</p>
+<p align="center">🔥 Build feito 100% NO CELULAR - Termux + PRoot + X11 - 463MB | Debian 13 XFCE</p>
