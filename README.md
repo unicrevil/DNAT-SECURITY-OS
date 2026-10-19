@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" width="100%" alt="DNAT SECURITY OS">
+  <img src="IMG-20261015-WA0407.jpg" width="100%" alt="DNAT SECURITY OS">
 </p>
 
 # 🛡️ Sistema Operacional de Segurança DNAT v1.0 - ARM64
